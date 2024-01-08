@@ -23,6 +23,7 @@ spec:
                 
         if [ -d "${WORKSPACE_SOURCE_PATH}" ] ; then
         rm -rf "${WORKSPACE_SOURCE_PATH:?}"/*
+        fi
 ---
 apiVersion: tekton.dev/v1beta1
 kind: Task
